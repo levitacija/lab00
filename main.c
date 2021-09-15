@@ -2,7 +2,6 @@
 #include <stdio.h>        
 int main(void)                  
 {                               
-    printf("Hello world! \n");
     int first, second, third;
     scanf("%d", &first);
     scanf("%d", &second);
