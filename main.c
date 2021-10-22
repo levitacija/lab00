@@ -1,11 +1,9 @@
 
 #include <stdio.h>        
-int main(void)                  
+int main()                  
 {                               
     int first, second, third;
-    scanf("%d", &first);
-    scanf("%d", &second);
-    scanf("%d", &third);
+    scanf("%d%d%d", &first, &second, &third);
     printf("%d", first - second);
     return 0;                   
 }
